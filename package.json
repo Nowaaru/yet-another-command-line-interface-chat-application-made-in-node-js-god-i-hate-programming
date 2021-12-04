@@ -1,0 +1,45 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "chat app",
+  "main": "dist/app.js",
+  "type": "module",
+  "scripts": {
+    "client": "node --experimental-modules dist/app.js",
+    "server": "node --experimental-modules dist/server.js",
+    "test": "node --experimental-modules dist/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/inquirer": "^8.1.3",
+    "@types/js-levenshtein": "^1.1.0",
+    "@types/node-cleanup": "^2.1.2",
+    "@types/terminal-kit": "^1.28.4",
+    "ansi-escapes": "^5.0.0",
+    "chalk": "^4.1.2",
+    "chalk-pipe": "^5.1.1",
+    "chance": "^1.1.8",
+    "cli-spinners": "^2.6.1",
+    "cpu-stat": "^2.0.1",
+    "cpu-stats": "^1.0.0",
+    "enquirer": "^2.3.6",
+    "inquirer": "^8.2.0",
+    "js-levenshtein": "^1.1.6",
+    "levenshtein": "^1.0.5",
+    "moment": "^2.29.1",
+    "node-cleanup": "^2.1.2",
+    "ora": "^6.0.1",
+    "random-username-generator": "^1.0.4",
+    "socket.io": "^4.3.1",
+    "socket.io-client": "^4.3.2",
+    "strip-ansi": "^7.0.1",
+    "term-size": "^3.0.1",
+    "terminal-kit": "^2.2.3",
+    "typescript": "^4.5.0-beta",
+    "windows-cpu": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/chance": "^1.1.3"
+  }
+}
